@@ -1,0 +1,18 @@
+{
+  "name": "infotex72.ru",
+  "version": "0.1.0",
+  "authors": [
+    "Denis Lysyuk <dle@crtweb.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.2"
+  }
+}

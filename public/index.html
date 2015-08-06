@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>«ИНФОТЕХ-2015»</title>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/app.min.js"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <a href="#" id="logo"></a>
+        <a href="#" id="logo_adm"></a>
+        <div id="event_date">
+            <div id="event_callendar">
+                <span>9-10</span>сентября
+            </div>
+            г.Тюмень
+        </div>
+        <ul id="contact_btn">
+            <li>
+                <img src="img/phone.png">
+                +7 3452 56-00-56
+            </li>
+            <li>
+                <img src="img/mail.png">
+                infotex@72to.ru
+            </li>
+        </ul>
+    </div>
+    <section id="video-bg">
+        <video width="100%" height="auto" preload="auto" autoplay="autoplay" loop="loop">
+            <source src="video/clip.mp4" type="video/mp4">
+        </video>
+    </section>
+    <div class="wrapper">
+        <section id="event">
+            <div class="row">
+                <div class="column large-12">
+                    <dl class="sub-nav top-menu">
+                        <dd><a href="#">ДЛЯ УЧАСТНИКОВ</a></dd>
+                        <dd class="active"><a href="#">ПРОГРАММА</a></dd>
+                        <dd><a href="#">ПАРТНЁРЫ</a></dd>
+                        <dd><a href="#">НОВОСТИ	КОНТАКТЫ</a></dd>
+                        <dd><a href="#">АРХИВ</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="invite">
+                <div class="row">
+                    <div class="column large-8 large-offset-4 invite-title">
+                        Приглашаем вас принять участие в главном событии IT индустрии Тюменской области:
+                        <a href="">VIII Всероссийский форум «Электронное правительство — современный механизм управления регионом» специализированная выставка «Информационные технологии Тюменской
+                        области 2015» («ИНФОТЕХ-2015»)</a>
+                        <a href="#invite_form" class="invite-btn">Регистрация Участников</a>
+                        <a href="#" id="counter">уже 245 Участников</a>
+                    </div>
+                </div>
+            </div>
+            <div id="invite_media">
+                <div class="row">
+                    <div class="column large-8 large-offset-4">
+                        <div class="invite_media">
+                            <div class="btn">
+                                <img src="img/live.png">Онлайн трансляция
+                            </div>
+                            <div class="btn">
+                                <img src="img/play.png">Промо - ролик
+                            </div>
+                            <div class="btn">
+                                <img src="img/app.png">Мобильное приложение
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="column large-11 large-offset-1">
+                    <div id="invite_form" class="row none">
+                        <div class="column large-6 large-centered title-content">
+                            <div class="row">
+                                <div class="column large-12">
+                                    <h2>Заявка на участие</h2>
+                                </div>
+                                <form>
+                                    <div class="column large-12 text-left">
+                                        <label>Фамилия
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Имя
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Отчество
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Организация
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Должность
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Регион
+                                            <select>
+                                                <option value="husker">Тюменская область</option>
+                                                <option value="starbuck">Starbuck</option>
+                                                <option value="hotdog">Hot Dog</option>
+                                                <option value="apollo">Apollo</option>
+                                            </select>
+                                        </label>
+                                        <label>Город
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Мобильный телефон
+                                            <div class="row collapse">
+                                                <div class="small-3 large-1 columns">
+                                                    <span class="prefix">+7</span>
+                                                </div>
+                                                <div class="small-9 large-11 columns">
+                                                    <input type="text" placeholder="(ХХХ) ХХХ ХХ ХХ">
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <label>Ел. Почта
+                                            <input type="text"/>
+                                        </label>
+                                        <div class="row ratio_group">
+                                            <div class="large-12 column">
+                                                <label>Планируете ли вы экспонироваться на выставке</label>
+                                                <input type="radio" name="pokemon" value="1" id="pokemonRed"><label for="pokemonRed">Да</label>
+                                                <input type="radio" name="pokemon" value="2" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
+                                            </div>
+                                            <div class="large-12 column">
+                                                <label>Нуждаетесь ли вы в услугах гостиницы и трансферте</label>
+                                                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Да</label>
+                                                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
+                                            </div>
+                                        </div>
+                                        <label>Откуда вы узнали о мероприятии
+                                            <input type="text"/>
+                                        </label>
+                                        <label>Комментарий
+                                            <textarea></textarea>
+                                        </label>
+                                        <div class="row ratio_group">
+                                            <div class="large-12 column">
+                                                <label>Согласны ли вы на получение информационной рассылки о мероприятии? *</label>
+                                                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Да</label>
+                                                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Нет</label>
+                                            </div>
+                                        </div>
+                                        <div class="row invite_submit">
+                                            <div class="column large-12 text-center">
+                                                <input type="submit" value="Отправить заявку" class="button large radius">
+                                            </div>
+                                            <div class="column large-12">
+                                                Уважаемые дамы и господа, после отправки нам заполненной анкеты,
+                                                менеджер пришлёт подтверждение регистрации вашего участия.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 title-content">
+                            <h2>Новости мероприятия</h2>
+                            <!--<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-4 news">
+                            <a href="" class="news-img"><img src="http://infotex72.ru/system/uploads/news/file/98/big_slider2.jpg"></a>
+                            <span>05 августа 2015, 17:18</span>
+                            <a class="link">Процесс информатизации здравоохранения в Тюменской области не стоит на месте</a>
+                            И вместе с тем растет потребность сотрудников медицинских учреждений в новых навыках.
+                        </div>
+                        <div class="column large-4 news">
+                            <a href="" class="news-img"><img src="http://infotex72.ru/system/uploads/news/file/98/big_slider2.jpg"></a>
+                            <span>05 августа 2015, 17:18</span>
+                            <a class="link">Процесс информатизации здравоохранения в Тюменской области не стоит на месте</a>
+                            И вместе с тем растет потребность сотрудников медицинских учреждений в новых навыках.
+                        </div>
+                        <div class="column large-4 news">
+                            <a href="" class="news-img"><img src="http://infotex72.ru/system/uploads/news/file/98/big_slider2.jpg"></a>
+                            <span>05 августа 2015, 17:18</span>
+                            <a class="link">Процесс информатизации здравоохранения в Тюменской области не стоит на месте</a>
+                            И вместе с тем растет потребность сотрудников медицинских учреждений в новых навыках.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 news-all">
+                            <a href="#">Все новости</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 title-content">
+                            <h2>Спикеры</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-10 large-centered">
+                            <div class="row">
+                                <div class="column large-4 speaker">
+                                    <a href=""><img src="http://infotex72.ru/system/uploads/speaker/file/30/small___.jpg"></a>
+                                    <div class="speacker_name"><span>Албычев</span> Александр</div>
+                                    ДИРЕКТОР ДЕПАРТАМЕНТА ИНФОРМАТИЗАЦИИ ТЮМЕНСКОЙ ОБЛАСТИ
+                                </div>
+                                <div class="column large-4 speaker">
+                                    <a href=""><img src="http://infotex72.ru/system/uploads/speaker/file/30/small___.jpg"></a>
+                                    <div class="speacker_name"><span>Албычев</span> Александр</div>
+                                    ДИРЕКТОР ДЕПАРТАМЕНТА ИНФОРМАТИЗАЦИИ ТЮМЕНСКОЙ ОБЛАСТИ
+                                </div>
+                                <div class="column large-4 speaker">
+                                    <a href=""><img src="http://infotex72.ru/system/uploads/speaker/file/30/small___.jpg"></a>
+                                    <div class="speacker_name"><span>Албычев</span> Александр</div>
+                                    ДИРЕКТОР ДЕПАРТАМЕНТА ИНФОРМАТИЗАЦИИ ТЮМЕНСКОЙ ОБЛАСТИ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 title-content">
+                            <h2>Организаторы форума</h2>
+                        </div>
+                    </div>
+                    <div class="row organiser">
+                        <div class="column large-6">
+                            <div class="row">
+                                <div class="column large-3">
+                                    <img src="http://infotex72.ru/assets/logo-tyumen.gif">
+                                </div>
+                                <div class="large-9">Департамент информатизации Тюменской области</div>
+                            </div>
+                        </div>
+                        <div class="column large-6">
+                            <div class="row">
+                                <div class="column large-3">
+                                    <img src="http://infotex72.ru/assets/logo-tyumen.gif">
+                                </div>
+                                <div class="large-9">Департамент информатизации Тюменской области</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 dotted"></div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 title-content">
+                            <h2>Партнёры</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-3 partner">
+                            <a href="#"><img src="http://infotex72.ru/system/uploads/partner/file/54/preview_____.PNG"></a>
+                            ИНФОРМАЦИОННЫЙ ПАРТНЕР
+                        </div>
+                        <div class="column large-3 partner">
+                            <a href="#"><img src="http://infotex72.ru/system/uploads/partner/file/54/preview_____.PNG"></a>
+                            ИНФОРМАЦИОННЫЙ ПАРТНЕР
+                        </div>
+                        <div class="column large-3 partner">
+                            <a href="#"><img src="http://infotex72.ru/system/uploads/partner/file/54/preview_____.PNG"></a>
+                            ИНФОРМАЦИОННЫЙ ПАРТНЕР
+                        </div>
+                        <div class="column large-3 partner">
+                            <a href="#"><img src="http://infotex72.ru/system/uploads/partner/file/54/preview_____.PNG"></a>
+                            ИНФОРМАЦИОННЫЙ ПАРТНЕР
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column large-12 title-content location">
+                            <h2>Где будет проходить мероприятие</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=AmqzHSol-0_FM3zc-Y5yvnaKS3jTAiKp&width=100%&height=450"></script>
+            <div class="row">
+                <div class="column large-11 large-offset-1">
+                    <div class="row">
+                        <div class="column large-7 large-centered footer">
+                            © 2015 Форум «Электронное правительство — современный механизм управления регионом».
+                            Департамент информатизации Тюменской области.
+                            <span>
+                                <a href="#">Разработка сайта</a> — агентство Creative
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/index.min.js"></script>
+    <!--Modal
+    <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+        <h2 id="modalTitle">Awesome. I have it.</h2>
+        <p class="lead">Your couch.  It is mine.</p>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>-->
+</body>
+</html>
